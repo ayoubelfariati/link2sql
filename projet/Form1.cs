@@ -124,10 +124,10 @@ namespace projet
                 }
                 if (comboBox1.SelectedIndex == 2)
                 {
-                    var x = from element in data.Table
+                    var teb = from element in data.Table
                             orderby element.Prenom ascending
                             select element;
-                    dataGridView1.DataSource = x;
+                    dataGridView1.DataSource = teb;
                 }
             }
         }
